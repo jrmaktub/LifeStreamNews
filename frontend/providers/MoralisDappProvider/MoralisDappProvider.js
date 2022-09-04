@@ -10,7 +10,7 @@ function MoralisDappProvider({children}) {
     Moralis.onChainChanged(function (chain) {
       setChainId(chain);
     });
-
+    //changed this to Accounts plural.
     Moralis.onAccountsChanged(function (address) {
       setWalletAddress(address[0]);
     });
