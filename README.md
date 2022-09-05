@@ -10,6 +10,7 @@
 [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FMoralisWeb3)](https://twitter.com/MoralisWeb3)
 
 This project is using:
+//test
 
 - [create-react-native-dapp](https://github.com/cawfree/create-react-native-dapp) to bootstrap the project.
 - [WalletConnect v1 react-native integration](https://docs.walletconnect.com/1.0/quick-start/dapps/react-native) for authenthication (we use a slightly modiefied version, located in `./src/WalletConnect` to allow to modify the `enable` function of Moralis).
