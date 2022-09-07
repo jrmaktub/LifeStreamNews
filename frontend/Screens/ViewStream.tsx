@@ -2,7 +2,7 @@ import React, {useEffect, useRef} from 'react';
 import {useRoute} from '@react-navigation/native';
 import {Button, Div, Text} from 'react-native-magnus';
 import {NodePlayerView} from 'react-native-nodemediaclient';
-import {CloseButton} from '../components/CloseButton';
+import {CloseButton} from '../Components/CloseButton.tsx';
 import {CopyInput} from '../components/CopyInput';
 
 export interface Params {

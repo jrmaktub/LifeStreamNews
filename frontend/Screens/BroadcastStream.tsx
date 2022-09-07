@@ -12,7 +12,8 @@ import {
 import BroadcastCameraView, {
   CameraView,
 } from '../components/BroadcastCameraView';
-import {CloseButton} from '../components/CloseButton';
+//might cause issues because of importing
+import {CloseButton} from '../Components/CloseButton';
 import {useAPIKeyStore} from '../hooks/useAPIKeyStore';
 import {useCreateStream, useDeleteStream} from '../hooks/useAPI';
 import {CopyInput} from '../components/CopyInput';

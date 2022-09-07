@@ -2574,6 +2574,11 @@
     "sudo-prompt" "^9.0.0"
     "wcwidth" "^1.0.1"
 
+"@react-native-community/clipboard@^1.5.1":
+  "integrity" "sha512-AHAmrkLEH5UtPaDiRqoULERHh3oNv7Dgs0bTC0hO5Z2GdNokAMPT5w8ci8aMcRemcwbtdHjxChgtjbeA38GBdA=="
+  "resolved" "https://registry.npmjs.org/@react-native-community/clipboard/-/clipboard-1.5.1.tgz"
+  "version" "1.5.1"
+
 "@react-navigation/core@^6.1.0":
   "integrity" "sha512-LyZqD/ZCXSK9+ES8KiH+0tU+7aL84jUw1N9OxZfEuns/OcnSXKC3sOO+9NQ9XRowB1wLUfJhmqZ8G8rUlg33fQ=="
   "resolved" "https://registry.npmjs.org/@react-navigation/core/-/core-6.1.0.tgz"
@@ -13695,6 +13700,11 @@
   dependencies:
     "deepmerge" "^4.2.2"
     "validate-color" "^2.1.1"
+
+"react-native-nodemediaclient@^0.2.18":
+  "integrity" "sha512-x4aO/xyKlvLb8bu4881uwfuY0LuDob9BDgofJZbYqvZd4gEjOV2hrcHu4oBSPJx3OwtsaoZX/qiFZ7/OHS5Ntg=="
+  "resolved" "https://registry.npmjs.org/react-native-nodemediaclient/-/react-native-nodemediaclient-0.2.18.tgz"
+  "version" "0.2.18"
 
 "react-native-os@^1.0.1":
   "integrity" "sha512-OlT+xQAcvkcnf7imgXiu+myMkqDt4xw2bP5SlVo19hEn5XHBkPMLX7dk3sSGxxncH/ToMDsf1KLyrPabNVtadA=="
