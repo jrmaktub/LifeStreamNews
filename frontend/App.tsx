@@ -24,6 +24,7 @@ import {
   faUser,
   faPaperPlane,
   faRocket,
+  faCamcorder
 } from "@fortawesome/free-solid-svg-icons";
 
 import Moralis from "moralis/types";
@@ -48,16 +49,18 @@ function Home(): JSX.Element {
         }}
         component={Assets}
       />
+
       <Tab.Screen
-        name="Transactions"
+        name="Live"
         options={{
-          tabBarLabel: "Transactions",
+          tabBarLabel: "Live",
           tabBarIcon: ({ color }) => (
             <FontAwesomeIcon icon={faCreditCard} color={color} size={20} />
           ),
         }}
         component={RecentTransactions}
       />
+
       <Tab.Screen
         name="NFTAssets"
         options={{
