@@ -13765,6 +13765,11 @@
   dependencies:
     "warn-once" "^0.1.0"
 
+"react-native-simple-toast@^1.1.4":
+  "integrity" "sha512-7D8o8L445XDz7Rdh0pMgCIWuevv1FnGyuD7F8Nz/XhzMInmU4jL5VFJI25VVqQ2uGTaUSuo2ogXSgKnv6p9NJg=="
+  "resolved" "https://registry.npmjs.org/react-native-simple-toast/-/react-native-simple-toast-1.1.4.tgz"
+  "version" "1.1.4"
+
 "react-native-stream@0.1.9":
   "integrity" "sha1-E2gMzok8p9NKhmZNnVtO4adyyXw="
   "resolved" "https://registry.npmjs.org/react-native-stream/-/react-native-stream-0.1.9.tgz"

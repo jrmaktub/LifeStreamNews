@@ -3,14 +3,16 @@ import {useMoralis} from 'react-moralis';
 import MoralisDappContext from './context';
 
 function MoralisDappProvider({children}) {
+
   const {web3, Moralis, user} = useMoralis();
   const [walletAddress, setWalletAddress] = useState();
   const [chainId, setChainId] = useState();
+
   useEffect(() => {
     Moralis.onChainChanged(function (chain) {
       setChainId(chain);
     });
-    //changed this to Accounts plural.
+    //changed this to onAccounts plural.
     Moralis.onAccountsChanged(function (address) {
       setWalletAddress(address[0]);
     });
